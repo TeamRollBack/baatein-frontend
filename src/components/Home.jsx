@@ -4,10 +4,10 @@ import Settings from "./Settings";
 
 export default function Home() {
     return (
-        <div>
+        <>
             <Contacts />
             <ChatWindow />
             <Settings />
-        </div>
+        </>
     )
 }
