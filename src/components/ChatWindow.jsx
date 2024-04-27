@@ -12,7 +12,7 @@ export default function ChatWindow() {
           <div className="w-[75%] flex justify-end items-end mr-5">three dot</div>
         </div>
 
-        <div className="relative w-full h-[86%] flex justify-center items-center border-2 border-red-500 mt-[4.5%]">Chatwindow</div>
+        <div className="relative w-full h-[85%] flex justify-center items-center border-2 border-red-500 mt-[4%]">Chatwindow</div>
 
         <div className="w-[80%] fixed bottom-0 right-0 flex justify-center items-center border-2 border-pink-500 py-3">
         <div>
