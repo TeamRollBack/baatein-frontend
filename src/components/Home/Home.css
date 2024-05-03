@@ -1,0 +1,20 @@
+
+.Home-main{
+    display: grid;
+    grid-template-columns: 3% 30% 67%;
+    width:100%;
+    height:100vh;
+    background-color: rgb(155, 155, 155);
+}
+
+.Home-Settings{
+    background-color: black;
+    grid-column: 1/2;
+}
+.Home-ChatWindow{ 
+    grid-column: 3/4    ;
+}
+
+.Home-Contacts{
+    grid-column:2/3;
+}
