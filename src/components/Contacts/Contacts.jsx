@@ -1,9 +1,9 @@
 // contact.jsx
 import { useSelector } from "react-redux";
-import { homeIcons } from "./IconArray";
-import { ContactInfo } from "./DummyData/ContactData";
+import { homeIcons } from "../IconArray";
+import { ContactInfo } from "../DummyData/ContactData";
 import { useDispatch } from "react-redux";
-import { setChatName } from "../features/chatWindowSlice";
+import { setChatName } from "../../features/chatWindowSlice";
 
 export default function Contacts() {
   const dispatch=useDispatch()
